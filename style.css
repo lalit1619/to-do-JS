@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body
+{
+    background-color: rgb(237, 143, 21);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.todo-list
+{
+    text-align: left;
+    font-size: 1.2rem;
+    list-style-type: none;
+}
+.todo-list li
+{
+    padding: 0.7rem;
+    background: #dcd0d0;
+    color: rgb(0, 0, 0);
+    margin-top: 1rem;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    background-color: #9db789;
+    padding: 3rem;
+}
+.yourText
+{
+    font-size: 1.3rem;
+    padding: 1.1rem;
+    width: 78%;
+    margin-top: 1.4em;
+    border: none;
+    display: inline;
+}
+.btn
+{
+    font-size: 1.3rem;
+    padding: 1.1rem;
+    display: inline;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.todo-btn
+{
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+    padding: 0.2rem;
+    border-radius: 0.6rem;
+    
+}
+.todo-btns
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+
+}
+.done
+{
+    background: rgb(3, 140, 3);
+    color: white;
+  
+}
+.remove
+{
+    background: rgb(246, 80, 80);
+    color: white;
+    
+}
